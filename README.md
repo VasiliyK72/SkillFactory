@@ -2,12 +2,13 @@
 Я изучаю язык Питон. ДЕлаю здесь свои домашки.
 
 День 1
+Hello.py
 
 import random
 import string
 
 def hard_gen_pass(length=33):
-    alphabet = 'abcdefghijklmnopqrstuvwxyz'
+	alphabet = 'abcdefghijklmnopqrstuvwxyz'
     alphabet += 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
     choise = input('Wanna use some digits?(y/n): ')
     if choise == 'y' or choise == 'yes' or choise == 'Y' or choise == 'YES':
@@ -26,6 +27,7 @@ if length :
 else:
     res = hard_gen_pass()
 print (res)
+
 """
 1)воспроизвести
 2)проверки на введенные данные
