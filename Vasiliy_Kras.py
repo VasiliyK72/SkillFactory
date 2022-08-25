@@ -2,7 +2,7 @@
 import random
 import string
 
-# Вспомогательная class Hard_gen_pass
+# Вспомогательный class Hard_gen_pass
 # input     int length
 # return    str
 class Hard_gen_pass:
